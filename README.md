@@ -32,7 +32,7 @@ This will also download and setup Tiny C Compiler(TCC) for compiling C scripts.<
 ## Usage
 ------------------------------------------------------------------------
 
-Run the Application.bat file.<br />
+Run the app.bat file.<br />
 *wait till the local server is started*<br />
 Highlight a code and copy it to clipboard (ctrl + c).<br />
 If it is a Python script press (p+e).<br />
