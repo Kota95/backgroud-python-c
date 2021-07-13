@@ -1,0 +1,12 @@
+
+------------------------------------------------------------------------
+
+Using the script:
+	
+	Highlight a code and copy it to clipboard (ctrl + c).
+	If it is Python code press (p+e).
+	If it is C code press (c+e).
+	Open server with URL with a device connected to the same network.
+	Press (d+e) to delete cache and temp files. (Also clears the screen)
+
+------------------------------------------------------------------------
