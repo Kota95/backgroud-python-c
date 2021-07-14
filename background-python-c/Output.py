@@ -16,7 +16,7 @@ while True:
             ProgramFile = open("Program.py", "w")
             ProgramFile.write(Program)
             ProgramFile.close()
-            ProgramExecution = subprocess.run(["python", "-m", "Program"], shell=True, universal_newlines=True, stdout=subprocess.PIPE)
+            ProgramExecution = subprocess.run(["python", "-m", "Program"], shell=True, universal_newlines=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             Output = ProgramExecution.stdout
             Errors = ProgramExecution.stderr
             if Errors == None:
@@ -33,7 +33,7 @@ while True:
             ProgramFile = open("Program.c", "w")
             ProgramFile.write(Program)
             ProgramFile.close()
-            ProgramExecution = subprocess.run([".\\tcc\\tcc.exe", "-run", "Program.c"], shell=True, universal_newlines=True, stdout=subprocess.PIPE)
+            ProgramExecution = subprocess.run([".\\tcc\\tcc.exe", "-run", "Program.c"], shell=True, universal_newlines=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             Output = ProgramExecution.stdout
             Errors = ProgramExecution.stderr
             if Errors == None:
